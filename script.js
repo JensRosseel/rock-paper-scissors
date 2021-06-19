@@ -20,12 +20,15 @@
 
     document.getElementById("rock").addEventListener("click", function(){
         userWeapon = 'rock';
+        document.getElementById("status").innerHTML = "Rock selected";
     })
     document.getElementById("paper").addEventListener("click", function(){
         userWeapon = 'paper';
+        document.getElementById("status").innerHTML = "Paper selected";
     })
     document.getElementById("scissors").addEventListener("click", function(){
         userWeapon = 'scissors';
+        document.getElementById("status").innerHTML = "Scissors selected";
     })
     document.getElementById("play").addEventListener("click", function(){
         if(userWeapon == ''){
@@ -71,7 +74,7 @@
                         break;
                 }
             }
-            document.write('<p>You ' + conclusion + '</p>');
+            document.write('<p>You ' + conclusion + '</p><a href="index.html">Play Again</a>');
         }
     })
 })();

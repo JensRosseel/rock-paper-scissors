@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: dimgray;
+}
+.container{
+    margin-top: 10%;
+}
+button{
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: crimson;
+    color: cyan;
+    border: 1px solid cyan;
+}
+button:last-child{
+    width: 200px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+p{
+    color: cyan;
+}
